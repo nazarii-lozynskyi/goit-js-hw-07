@@ -23,7 +23,7 @@ const makeElGalleryMarkup = images => {
       <img
         
         src = ${images.url} 
-        alt = ${images.alt}
+        alt = '${images.alt}'
         >
     </li>
       
